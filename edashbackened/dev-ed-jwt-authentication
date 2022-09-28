@@ -1,0 +1,13 @@
+const express = require('express')
+
+
+
+
+
+// validation
+const joi = require('@hapi/joi')
+const Schema ={
+    name : joi.string().min(6).required(),
+    email : joi.string().min(6).required().email(),
+    password: joi.string().min(6).required()
+}
