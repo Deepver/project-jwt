@@ -6,8 +6,8 @@
 .pnp.js
 
 
-dev-ed-jwt-authentication/
-index-backup/
+.dev-ed-jwt-authentication
+.index-backup
 
 # testing
 /coverage
